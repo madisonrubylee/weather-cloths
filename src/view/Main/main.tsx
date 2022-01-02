@@ -3,6 +3,8 @@ import styles from './main.module.css'
 import Wheather from '../../components/Wheather/wheather'
 import Header from '../../components/Header/header'
 
+// const wheatherData = wheatherApi.getWheather()
+
 const Main = ({}) => {
     
     return (
