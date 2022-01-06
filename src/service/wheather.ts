@@ -25,7 +25,11 @@ class WheatherApi extends HttpClient {
         return this.classInstance
     }
 
-    public getWheather = () => this.instance.get<WheatherType>(`?id=1835847&appid=${process.env.REACT_APP_WHEATHER_API_KEY}`)
+    async getWheather () { 
+        const response = await this.instance.get(`?id=1835847&appid=${process.env.REACT_APP_WHEATHER_API_KEY}`) 
+                                    
+        return response
+    }
 }
 
 export default WheatherApi

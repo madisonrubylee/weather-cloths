@@ -22,7 +22,7 @@ abstract class HttpClient {
         )
     }
 
-    private _handleResponse = ({ data } : AxiosResponse) => data
+    private _handleResponse = ({ data } : any) => data
     private _handleError = (error: any) => Promise.reject(error)
 }
 
