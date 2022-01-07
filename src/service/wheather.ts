@@ -1,5 +1,5 @@
 import HttpClient from './httpClient'
-import { WheatherType } from '../types/wheather'
+//import { WeatherType } from '../types/weather'
 
 class WheatherApi extends HttpClient {
     // httpClient: AxiosInstance
