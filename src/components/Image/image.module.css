@@ -1,0 +1,17 @@
+.gridItem {
+    top: 0px;
+    left: 0px;
+    transform: translateX(0px) translateY(0px);
+    width: 252px;
+    height: 367px;
+}
+
+.image {
+    position: absolute;
+}
+
+.imageWrapper {
+    border-radius: 16px;
+    -webkit-mask-image: -webkit-radial-gradient(center, white, black);
+    height: 100%;
+}

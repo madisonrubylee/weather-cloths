@@ -1,0 +1,18 @@
+.imageBox {
+    box-sizing: border-box;
+}
+
+@media (min-width: 1260px) and (max-width: 1511px) {
+    .grid {
+        width: 1260px;
+    }
+}   
+
+.imageList {
+    width: 100%;
+}
+
+.imageWrapper {
+    position: relative;
+    margin: 0 auto;
+}
