@@ -3,6 +3,7 @@ import styles from './weather.module.css'
 import moment from 'moment'
 //import { WeatherType }  from '../../types/wheather'
 import WeatherApi from '../../service/wheather'
+import ImageList from '../ImageList/imageList'
 
 
 const weatherApi = WeatherApi.getInstance()
@@ -28,6 +29,7 @@ const Weather = () => {
         <>
             <p className={styles.nowDate} >{ nowDate }</p>
             <img className={styles.img} src={`${getImage(image)}`} alt="wheather" />
+            <ImageList></ImageList>
         </> 
     )
 }
