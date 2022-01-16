@@ -21,7 +21,7 @@ const googleImage = new GoogleImage(httpclient)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App googleImage={googleImage}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

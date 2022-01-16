@@ -9,7 +9,7 @@ import WeatherApi from '../../service/wheather'
 const weatherApi = WeatherApi.getInstance()
 let DEFAULT_IMAGE = '/wheather/default_wheather.png' 
 
-const Weather = () => {
+const Weather = (weather: any) => {
     
     // const [weatherData, setWeatherData] = useState({} as any)
     // const [image, setImage] = useState('')

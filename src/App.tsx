@@ -4,11 +4,11 @@ import './App.css';
 import { PublicRoutes } from './routes';
 import { GoogleImageType } from './types/googleImage'
 
-function App(googleImage : GoogleImageType ) {
+function App( ) {
   return (
     <div className="App">
       <BrowserRouter>
-        <PublicRoutes googleImage={googleImage} />
+        <PublicRoutes />
       </BrowserRouter>
     </div>
   );

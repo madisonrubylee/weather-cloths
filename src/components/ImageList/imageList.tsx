@@ -22,6 +22,10 @@ const ImageList = (props: any)=> {
     //     })
     // }, [])
 
+        // useEffect(() => {
+    //     setImage(weatherData?.weather?.[0].main)
+    // }, [weatherData])
+    
     return (
         <>
           {/* <div className={styles.imageBox}>
